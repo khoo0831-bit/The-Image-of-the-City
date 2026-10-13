@@ -1,0 +1,104 @@
+[
+  {
+    "active": "總覽",
+    "cards": [
+      {
+        "detail": "<p class=\"overall-label\">意象鮮明，但結構不均</p><p class=\"city-reading\">歷史層次、區域性格與遠距地標很強；不規則路網則提高了辨向難度。</p><p class=\"signature\"><span>代表線索</span>燈塔山、查爾斯河、州議會金頂</p>",
+        "insight": "強烈的局部個性，可以與不完全清楚的整體結構同時存在。"
+      },
+      {
+        "detail": "<p class=\"overall-label\">意象破碎，局部勝於整體</p><p class=\"city-reading\">鐵路、公路與高地割裂城市；街坊各自可辨，卻缺少共享的城市骨架。</p><p class=\"signature\"><span>代表線索</span>Journal Square、鐵路走廊、帕利塞茲高地</p>",
+        "insight": "強邊界不一定帶來清楚意象；它也可能把城市切成彼此無關的片段。"
+      },
+      {
+        "detail": "<p class=\"overall-label\">尺度巨大，以移動組織意象</p><p class=\"city-reading\">方格路網與大道提供方向，高速公路則把城市辨識轉向車行與大尺度經驗。</p><p class=\"signature\"><span>代表線索</span>Pershing Square、主要大道、高速公路</p>",
+        "insight": "當城市尺度改變，意象不只來自步行街道，也來自速度、視野與移動序列。"
+      }
+    ]
+  },
+  {
+    "active": "道路",
+    "cards": [
+      {
+        "detail": "<p class=\"detail-label\">道路判讀 <span>鮮明但不均</span></p><p class=\"city-reading\">主要街道可辨，局部巷弄與不規則路網使方向判讀變難。</p><p class=\"field-question\">現地提問：路線是否連續？轉折與方向改變是否容易被察覺？</p>",
+        "insight": "強烈的局部個性，可以與不完全清楚的整體結構同時存在。"
+      },
+      {
+        "detail": "<p class=\"detail-label\">道路判讀 <span>弱</span></p><p class=\"city-reading\">鐵路、公路與割裂的街網削弱連續性，跨區移動較難形成完整序列。</p><p class=\"field-question\">現地提問：路線是否連續？轉折與方向改變是否容易被察覺？</p>",
+        "insight": "強邊界不一定帶來清楚意象；它也可能把城市切成彼此無關的片段。"
+      },
+      {
+        "detail": "<p class=\"detail-label\">道路判讀 <span>中高</span></p><p class=\"city-reading\">方格路網與主要大道提供方向；高速公路把辨識尺度拉到車行經驗。</p><p class=\"field-question\">現地提問：路線是否連續？轉折與方向改變是否容易被察覺？</p>",
+        "insight": "當城市尺度改變，意象不只來自步行街道，也來自速度、視野與移動序列。"
+      }
+    ]
+  },
+  {
+    "active": "邊界",
+    "cards": [
+      {
+        "detail": "<p class=\"detail-label\">邊界判讀 <span>強</span></p><p class=\"city-reading\">查爾斯河、濱水面與交通廊道提供清楚邊界，也造成局部阻隔。</p><p class=\"field-question\">現地提問：這條界線是在阻隔城市，還是在把兩側縫合起來？</p>",
+        "insight": "強烈的局部個性，可以與不完全清楚的整體結構同時存在。"
+      },
+      {
+        "detail": "<p class=\"detail-label\">邊界判讀 <span>強但分割</span></p><p class=\"city-reading\">鐵路走廊、帕利塞茲高地與濱水地帶既是鮮明界線，也是割裂來源。</p><p class=\"field-question\">現地提問：這條界線是在阻隔城市，還是在把兩側縫合起來？</p>",
+        "insight": "強邊界不一定帶來清楚意象；它也可能把城市切成彼此無關的片段。"
+      },
+      {
+        "detail": "<p class=\"detail-label\">邊界判讀 <span>中</span></p><p class=\"city-reading\">高速公路、坡地與開放空間形成界線，但也常把不同片區切開。</p><p class=\"field-question\">現地提問：這條界線是在阻隔城市，還是在把兩側縫合起來？</p>",
+        "insight": "當城市尺度改變，意象不只來自步行街道，也來自速度、視野與移動序列。"
+      }
+    ]
+  },
+  {
+    "active": "區域",
+    "cards": [
+      {
+        "detail": "<p class=\"detail-label\">區域判讀 <span>很強</span></p><p class=\"city-reading\">燈塔山、後灣、北端等區域在建築、地形與活動上各有鮮明性格。</p><p class=\"field-question\">現地提問：進入與離開時，材質、活動或空間氣氛是否明顯改變？</p>",
+        "insight": "強烈的局部個性，可以與不完全清楚的整體結構同時存在。"
+      },
+      {
+        "detail": "<p class=\"detail-label\">區域判讀 <span>局部清楚</span></p><p class=\"city-reading\">族群與階層街坊各自可辨，但彼此之間缺少共享架構。</p><p class=\"field-question\">現地提問：進入與離開時，材質、活動或空間氣氛是否明顯改變？</p>",
+        "insight": "強邊界不一定帶來清楚意象；它也可能把城市切成彼此無關的片段。"
+      },
+      {
+        "detail": "<p class=\"detail-label\">區域判讀 <span>中</span></p><p class=\"city-reading\">市中心可依街區與功能辨識；更大尺度則呈現分散、多核心。</p><p class=\"field-question\">現地提問：進入與離開時，材質、活動或空間氣氛是否明顯改變？</p>",
+        "insight": "當城市尺度改變，意象不只來自步行街道，也來自速度、視野與移動序列。"
+      }
+    ]
+  },
+  {
+    "active": "節點",
+    "cards": [
+      {
+        "detail": "<p class=\"detail-label\">節點判讀 <span>中高</span></p><p class=\"city-reading\">公共廣場與主要交會處能集中活動，但部分連結與出口仍不夠清楚。</p><p class=\"field-question\">現地提問：人會在此停留、轉向、會合，還是重新判斷下一段路？</p>",
+        "insight": "強烈的局部個性，可以與不完全清楚的整體結構同時存在。"
+      },
+      {
+        "detail": "<p class=\"detail-label\">節點判讀 <span>局部</span></p><p class=\"city-reading\">Journal Square 等中心能被辨識，但多個中心彼此鬆散。</p><p class=\"field-question\">現地提問：人會在此停留、轉向、會合，還是重新判斷下一段路？</p>",
+        "insight": "強邊界不一定帶來清楚意象；它也可能把城市切成彼此無關的片段。"
+      },
+      {
+        "detail": "<p class=\"detail-label\">節點判讀 <span>中</span></p><p class=\"city-reading\">Pershing Square、市政中心與主要路口是局部節點，串聯感仍有限。</p><p class=\"field-question\">現地提問：人會在此停留、轉向、會合，還是重新判斷下一段路？</p>",
+        "insight": "當城市尺度改變，意象不只來自步行街道，也來自速度、視野與移動序列。"
+      }
+    ]
+  },
+  {
+    "active": "地標",
+    "cards": [
+      {
+        "detail": "<p class=\"detail-label\">地標判讀 <span>強</span></p><p class=\"city-reading\">州議會金頂、海關大樓等可遠距辨識，能協助城市定向。</p><p class=\"field-question\">現地提問：它是否與背景形成差異，並能從多個位置被辨識？</p>",
+        "insight": "強烈的局部個性，可以與不完全清楚的整體結構同時存在。"
+      },
+      {
+        "detail": "<p class=\"detail-label\">地標判讀 <span>弱</span></p><p class=\"city-reading\">參照物多服務鄰里尺度，較難串成全市共同意象。</p><p class=\"field-question\">現地提問：它是否與背景形成差異，並能從多個位置被辨識？</p>",
+        "insight": "強邊界不一定帶來清楚意象；它也可能把城市切成彼此無關的片段。"
+      },
+      {
+        "detail": "<p class=\"detail-label\">地標判讀 <span>中高</span></p><p class=\"city-reading\">高層建築、旅館與市政建築具辨識性，但分布較為零散。</p><p class=\"field-question\">現地提問：它是否與背景形成差異，並能從多個位置被辨識？</p>",
+        "insight": "當城市尺度改變，意象不只來自步行街道，也來自速度、視野與移動序列。"
+      }
+    ]
+  }
+]

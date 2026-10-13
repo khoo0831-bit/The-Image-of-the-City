@@ -1,0 +1,32 @@
+[
+  {
+    "active": "01\n道路\nPATHS",
+    "diagramAria": "都市意象示意圖，目前顯示道路",
+    "diagramClass": "city-diagram active-paths",
+    "explainer": "<p class=\"explainer-kicker\">PATHS<!-- --> / <!-- -->01</p><h3>道路</h3><p class=\"explainer-short\">移動的骨架</p><p>人們日常、偶爾或可能沿著移動的線性通道，也是多數都市意象的主幹。</p><div class=\"prompt-card\"><span>現地觀察問題</span><strong>路線是否連續？轉折與方向改變是否容易被察覺？</strong></div>"
+  },
+  {
+    "active": "02\n邊界\nEDGES",
+    "diagramAria": "都市意象示意圖，目前顯示邊界",
+    "diagramClass": "city-diagram active-edges",
+    "explainer": "<p class=\"explainer-kicker\">EDGES<!-- --> / <!-- -->02</p><h3>邊界</h3><p class=\"explainer-short\">分隔與縫合</p><p>不是主要移動路徑的線性要素；它可能是岸線、鐵路、牆面，也可能是區域之間的接縫。</p><div class=\"prompt-card\"><span>現地觀察問題</span><strong>這條界線是在阻隔城市，還是在把兩側縫合起來？</strong></div>"
+  },
+  {
+    "active": "03\n區域\nDISTRICTS",
+    "diagramAria": "都市意象示意圖，目前顯示區域",
+    "diagramClass": "city-diagram active-districts",
+    "explainer": "<p class=\"explainer-kicker\">DISTRICTS<!-- --> / <!-- -->03</p><h3>區域</h3><p class=\"explainer-short\">可進入的範圍</p><p>具有共同性格、能讓人感到自己身處其中的中大型都市範圍。</p><div class=\"prompt-card\"><span>現地觀察問題</span><strong>進入與離開時，材質、活動或空間氣氛是否明顯改變？</strong></div>"
+  },
+  {
+    "active": "04\n節點\nNODES",
+    "diagramAria": "都市意象示意圖，目前顯示節點",
+    "diagramClass": "city-diagram active-nodes",
+    "explainer": "<p class=\"explainer-kicker\">NODES<!-- --> / <!-- -->04</p><h3>節點</h3><p class=\"explainer-short\">選擇與聚集</p><p>可進入的策略性位置，常出現在交通轉換、路徑交會或活動集中的地方。</p><div class=\"prompt-card\"><span>現地觀察問題</span><strong>人會在此停留、轉向、會合，還是重新判斷下一段路？</strong></div>"
+  },
+  {
+    "active": "05\n地標\nLANDMARKS",
+    "diagramAria": "都市意象示意圖，目前顯示地標",
+    "diagramClass": "city-diagram active-landmarks",
+    "explainer": "<p class=\"explainer-kicker\">LANDMARKS<!-- --> / <!-- -->05</p><h3>地標</h3><p class=\"explainer-short\">遠距參照點</p><p>通常從外部觀看、不必進入的點狀參照物，可用來確認位置與方向。</p><div class=\"prompt-card\"><span>現地觀察問題</span><strong>它是否與背景形成差異，並能從多個位置被辨識？</strong></div>"
+  }
+]
