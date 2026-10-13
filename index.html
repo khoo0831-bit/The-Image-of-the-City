@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="依據 Kevin Lynch《城市意象》，互動比較波士頓、澤西城與洛杉磯的都市五意象。">
+  <title>城市意象互動比較</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+<main><header class="topbar"><a class="brand" href="#top" aria-label="回到首頁"><span class="brand-mark">CI</span><span>城市意象<br><small>互動比較</small></span></a><nav aria-label="主要導覽"><a href="#compare">城市比較</a><a href="#elements">五元素</a><a href="#diagnose">城市診斷</a></nav><span class="edition">KEVIN LYNCH · 1960</span></header><section class="hero" id="top"><div class="hero-copy"><p class="eyebrow"><span>READING LAB 01</span> 把城市放進記憶裡</p><h1>城市如何<br>被<span>記住</span>？</h1><p class="hero-lead">從《城市意象》的三座案例城市出發，切換五種構成元素，看看同一套觀察語言如何讀出完全不同的城市。</p><div class="hero-actions"><a class="primary-button" href="#compare">開始比較 <span aria-hidden="true">↘</span></a><a class="text-link" href="#method">先看研究方法 <span aria-hidden="true">→</span></a></div><dl class="hero-stats"><div><dt>03</dt><dd>案例城市</dd></div><div><dt>05</dt><dd>意象元素</dd></div><div><dt>02</dt><dd>觀察視角</dd></div></dl></div><div class="hero-visual" aria-label="城市意象五元素抽象示意圖"><div class="hero-grid"></div><div class="hero-path path-a"></div><div class="hero-path path-b"></div><div class="hero-river"></div><div class="hero-district"><span>DISTRICT</span></div><div class="hero-node"><span>NODE</span></div><div class="hero-landmark"><span>LANDMARK</span></div><p class="hero-note note-a">路徑建立序列</p><p class="hero-note note-b">差異形成記憶</p><span class="coordinate">42°21′N / 71°03′W</span></div></section><section class="compare-section" id="compare"><div class="section-heading"><div><p class="section-number">01 / THREE CITIES</p><h2>三座城市，同一組觀看方式</h2></div><p>點選一個元素，並排查看三座城市如何被居民辨識。描述依書中案例分析重新整理，強弱標籤為便於閱讀的質性歸納。</p></div><div class="filter-row" role="group" aria-label="比較面向"><button class="active">總覽</button><button class="">道路</button><button class="">邊界</button><button class="">區域</button><button class="">節點</button><button class="">地標</button></div><div class="city-cards"><article class="city-card city-boston"><div class="city-card-top"><span class="city-code">BOS</span><span class="city-index">0<!-- -->1</span></div><p class="city-en">BOSTON</p><h3>波士頓</h3><div class="city-rule"></div><div class="city-detail"><p class="overall-label">意象鮮明，但結構不均</p><p class="city-reading">歷史層次、區域性格與遠距地標很強；不規則路網則提高了辨向難度。</p><p class="signature"><span>代表線索</span>燈塔山、查爾斯河、州議會金頂</p></div><p class="city-insight">強烈的局部個性，可以與不完全清楚的整體結構同時存在。</p></article><article class="city-card city-jersey"><div class="city-card-top"><span class="city-code">JER</span><span class="city-index">0<!-- -->2</span></div><p class="city-en">JERSEY CITY</p><h3>澤西城</h3><div class="city-rule"></div><div class="city-detail"><p class="overall-label">意象破碎，局部勝於整體</p><p class="city-reading">鐵路、公路與高地割裂城市；街坊各自可辨，卻缺少共享的城市骨架。</p><p class="signature"><span>代表線索</span>Journal Square、鐵路走廊、帕利塞茲高地</p></div><p class="city-insight">強邊界不一定帶來清楚意象；它也可能把城市切成彼此無關的片段。</p></article><article class="city-card city-la"><div class="city-card-top"><span class="city-code">LAX</span><span class="city-index">0<!-- -->3</span></div><p class="city-en">LOS ANGELES</p><h3>洛杉磯</h3><div class="city-rule"></div><div class="city-detail"><p class="overall-label">尺度巨大，以移動組織意象</p><p class="city-reading">方格路網與大道提供方向，高速公路則把城市辨識轉向車行與大尺度經驗。</p><p class="signature"><span>代表線索</span>Pershing Square、主要大道、高速公路</p></div><p class="city-insight">當城市尺度改變，意象不只來自步行街道，也來自速度、視野與移動序列。</p></article></div><p class="source-line">資料位置：第二章「三個城市」，書內頁 12–40。城市名稱依繁體中文慣用譯名呈現。</p></section><section class="elements-section" id="elements"><div class="section-heading light-heading"><div><p class="section-number">02 / FIVE ELEMENTS</p><h2>五種元素，不是五個孤島</h2></div><p>道路可以成為邊界，節點也可能同時是地標。分類的目的不是貼標籤，而是看見要素如何彼此支援、衝突或中斷。</p></div><div class="element-workbench"><div class="element-tabs" role="tablist" aria-label="城市意象五元素"><button role="tab" aria-selected="true" class="active"><span>01</span><strong>道路</strong><small>PATHS</small></button><button role="tab" aria-selected="false" class=""><span>02</span><strong>邊界</strong><small>EDGES</small></button><button role="tab" aria-selected="false" class=""><span>03</span><strong>區域</strong><small>DISTRICTS</small></button><button role="tab" aria-selected="false" class=""><span>04</span><strong>節點</strong><small>NODES</small></button><button role="tab" aria-selected="false" class=""><span>05</span><strong>地標</strong><small>LANDMARKS</small></button></div><div class="diagram-panel"><svg class="city-diagram active-paths" viewBox="0 0 640 430" role="img" aria-label="都市意象示意圖，目前顯示道路"><path class="diagram-district" d="M95 82 L263 58 L327 148 L276 267 L118 246 L72 156 Z"></path><path class="diagram-edge" d="M38 336 C122 291 197 352 273 319 C356 284 409 298 482 254 C531 225 566 204 614 193"></path><path class="diagram-path minor" d="M109 101 L506 364 M53 202 L503 75 M191 41 L391 400 M41 278 L580 289"></path><path class="diagram-path major" d="M41 175 C143 161 216 198 312 181 C409 163 470 98 598 115"></path><circle class="diagram-node halo" cx="311" cy="181" r="31"></circle><circle class="diagram-node" cx="311" cy="181" r="12"></circle><path class="diagram-landmark" d="M489 76 L502 103 L532 107 L510 128 L516 158 L489 144 L462 158 L468 128 L446 107 L476 103 Z"></path><g class="diagram-label label-path"><rect x="62" y="130" width="84" height="32" rx="16"></rect><text x="104" y="151">道路</text></g><g class="diagram-label label-edge"><rect x="439" y="282" width="84" height="32" rx="16"></rect><text x="481" y="303">邊界</text></g><g class="diagram-label label-district"><rect x="109" y="213" width="84" height="32" rx="16"></rect><text x="151" y="234">區域</text></g><g class="diagram-label label-node"><rect x="270" y="129" width="84" height="32" rx="16"></rect><text x="312" y="150">節點</text></g><g class="diagram-label label-landmark"><rect x="447" y="42" width="84" height="32" rx="16"></rect><text x="489" y="63">地標</text></g></svg><p class="diagram-caption">點選左側元素，查看它在同一個城市架構中的位置。</p></div><article class="element-explainer" role="tabpanel"><p class="explainer-kicker">PATHS<!-- --> / <!-- -->01</p><h3>道路</h3><p class="explainer-short">移動的骨架</p><p>人們日常、偶爾或可能沿著移動的線性通道，也是多數都市意象的主幹。</p><div class="prompt-card"><span>現地觀察問題</span><strong>路線是否連續？轉折與方向改變是否容易被察覺？</strong></div></article></div><p class="source-line source-light">概念位置：第三章「城市意象及其構成要素」，書內頁 41 起。</p></section><section class="method-section" id="method"><div class="method-intro"><p class="section-number">03 / READING METHOD</p><h2>不是看地圖，<br>而是比較兩種城市</h2><p>林奇把「可見的實體環境」與「居民心中的共同意象」放在一起。兩者的落差，正是規劃與設計可以介入的位置。</p></div><div class="method-flow"><article><span class="method-step">A</span><p class="method-en">FIELD RECONNAISSANCE</p><h3>現地踏勘</h3><p>由受過訓練的觀察者步行調查，繪製可見要素，註記連續、中斷、強弱與辨識困難。</p></article><span class="flow-plus" aria-hidden="true">＋</span><article><span class="method-step">B</span><p class="method-en">RESIDENT INTERVIEWS</p><h3>居民訪談</h3><p>請居民畫心智地圖、描述常用路線與最鮮明特徵，找出個人記憶背後的共同結構。</p></article><span class="flow-equals" aria-hidden="true">→</span><article class="method-result"><span class="method-step">C</span><p class="method-en">SHARED IMAGE</p><h3>共享意象</h3><p>比對實體形式與集體認知，辨認清楚的骨架、缺口與可被強化的連結。</p></article></div><div class="quality-strip"><article><span>01</span><h3>識別</h3><p>它是什麼，與其他事物有何不同？</p></article><article><span>02</span><h3>結構</h3><p>它與觀察者、其他要素如何形成空間關係？</p></article><article><span>03</span><h3>意義</h3><p>它帶來什麼實用或情感上的價值？</p></article></div></section><section class="diagnose-section" id="diagnose"><div class="diagnose-copy"><p class="section-number">04 / YOUR CITY</p><h2>把你的城市<br>放上比較桌</h2><p>憑第一印象為五種元素評分。這是一個閱讀練習，不是原書量表；目的在幫你找到最值得進一步踏查的項目。</p><label class="city-name-label"><span>城市或地區名稱</span><input maxlength="24" value="我的城市"></label></div><div class="diagnose-board"><div class="score-heading"><div><p>即時判讀</p><h3>我的城市</h3></div><div class="score-total"><strong>3.2</strong><span>/ 5</span></div></div><div class="sliders"><label class="slider-row"><span class="slider-name">道路<small>PATHS</small></span><input type="range" min="1" max="5" step="1" aria-label="道路清晰程度" style="--score:50%" value="3"><output>3</output></label><label class="slider-row"><span class="slider-name">邊界<small>EDGES</small></span><input type="range" min="1" max="5" step="1" aria-label="邊界清晰程度" style="--score:25%" value="2"><output>2</output></label><label class="slider-row"><span class="slider-name">區域<small>DISTRICTS</small></span><input type="range" min="1" max="5" step="1" aria-label="區域清晰程度" style="--score:75%" value="4"><output>4</output></label><label class="slider-row"><span class="slider-name">節點<small>NODES</small></span><input type="range" min="1" max="5" step="1" aria-label="節點清晰程度" style="--score:50%" value="3"><output>3</output></label><label class="slider-row"><span class="slider-name">地標<small>LANDMARKS</small></span><input type="range" min="1" max="5" step="1" aria-label="地標清晰程度" style="--score:75%" value="4"><output>4</output></label></div><div class="diagnosis-result" aria-live="polite"><p class="result-status">局部意象鮮明</p><div><span>最鮮明</span><strong>區域</strong></div><div><span>優先踏查</span><strong>邊界</strong></div><button>複製診斷摘要<span aria-hidden="true">↗</span></button></div></div></section><footer><div class="footer-title"><span>THE IMAGE<br>OF THE CITY</span><strong>城市，是記憶與形式共同完成的作品。</strong></div><div class="footer-notes"><p>內容依使用者提供之《城市意象》中文版整理，採概念轉述與互動圖解，不重製原書插圖。</p><p>Kevin Lynch, <em>The Image of the City</em>. 頁碼依所附版本：第二章 12–40；第三章 41 起；附錄 B 134 起。</p></div><a href="#top" aria-label="回到頁首">↑</a></footer></main><script type="application/json" id="comparison-data">[
+  {
+    "active": "總覽",
+    "cards": [
+      {
+        "detail": "\u003cp class=\"overall-label\"\u003e意象鮮明，但結構不均\u003c/p\u003e\u003cp class=\"city-reading\"\u003e歷史層次、區域性格與遠距地標很強；不規則路網則提高了辨向難度。\u003c/p\u003e\u003cp class=\"signature\"\u003e\u003cspan\u003e代表線索\u003c/span\u003e燈塔山、查爾斯河、州議會金頂\u003c/p\u003e",
+        "insight": "強烈的局部個性，可以與不完全清楚的整體結構同時存在。"
+      },
+      {
+        "detail": "\u003cp class=\"overall-label\"\u003e意象破碎，局部勝於整體\u003c/p\u003e\u003cp class=\"city-reading\"\u003e鐵路、公路與高地割裂城市；街坊各自可辨，卻缺少共享的城市骨架。\u003c/p\u003e\u003cp class=\"signature\"\u003e\u003cspan\u003e代表線索\u003c/span\u003eJournal Square、鐵路走廊、帕利塞茲高地\u003c/p\u003e",
+        "insight": "強邊界不一定帶來清楚意象；它也可能把城市切成彼此無關的片段。"
+      },
+      {
+        "detail": "\u003cp class=\"overall-label\"\u003e尺度巨大，以移動組織意象\u003c/p\u003e\u003cp class=\"city-reading\"\u003e方格路網與大道提供方向，高速公路則把城市辨識轉向車行與大尺度經驗。\u003c/p\u003e\u003cp class=\"signature\"\u003e\u003cspan\u003e代表線索\u003c/span\u003ePershing Square、主要大道、高速公路\u003c/p\u003e",
+        "insight": "當城市尺度改變，意象不只來自步行街道，也來自速度、視野與移動序列。"
+      }
+    ]
+  },
+  {
+    "active": "道路",
+    "cards": [
+      {
+        "detail": "\u003cp class=\"detail-label\"\u003e道路判讀 \u003cspan\u003e鮮明但不均\u003c/span\u003e\u003c/p\u003e\u003cp class=\"city-reading\"\u003e主要街道可辨，局部巷弄與不規則路網使方向判讀變難。\u003c/p\u003e\u003cp class=\"field-question\"\u003e現地提問：路線是否連續？轉折與方向改變是否容易被察覺？\u003c/p\u003e",
+        "insight": "強烈的局部個性，可以與不完全清楚的整體結構同時存在。"
+      },
+      {
+        "detail": "\u003cp class=\"detail-label\"\u003e道路判讀 \u003cspan\u003e弱\u003c/span\u003e\u003c/p\u003e\u003cp class=\"city-reading\"\u003e鐵路、公路與割裂的街網削弱連續性，跨區移動較難形成完整序列。\u003c/p\u003e\u003cp class=\"field-question\"\u003e現地提問：路線是否連續？轉折與方向改變是否容易被察覺？\u003c/p\u003e",
+        "insight": "強邊界不一定帶來清楚意象；它也可能把城市切成彼此無關的片段。"
+      },
+      {
+        "detail": "\u003cp class=\"detail-label\"\u003e道路判讀 \u003cspan\u003e中高\u003c/span\u003e\u003c/p\u003e\u003cp class=\"city-reading\"\u003e方格路網與主要大道提供方向；高速公路把辨識尺度拉到車行經驗。\u003c/p\u003e\u003cp class=\"field-question\"\u003e現地提問：路線是否連續？轉折與方向改變是否容易被察覺？\u003c/p\u003e",
+        "insight": "當城市尺度改變，意象不只來自步行街道，也來自速度、視野與移動序列。"
+      }
+    ]
+  },
+  {
+    "active": "邊界",
+    "cards": [
+      {
+        "detail": "\u003cp class=\"detail-label\"\u003e邊界判讀 \u003cspan\u003e強\u003c/span\u003e\u003c/p\u003e\u003cp class=\"city-reading\"\u003e查爾斯河、濱水面與交通廊道提供清楚邊界，也造成局部阻隔。\u003c/p\u003e\u003cp class=\"field-question\"\u003e現地提問：這條界線是在阻隔城市，還是在把兩側縫合起來？\u003c/p\u003e",
+        "insight": "強烈的局部個性，可以與不完全清楚的整體結構同時存在。"
+      },
+      {
+        "detail": "\u003cp class=\"detail-label\"\u003e邊界判讀 \u003cspan\u003e強但分割\u003c/span\u003e\u003c/p\u003e\u003cp class=\"city-reading\"\u003e鐵路走廊、帕利塞茲高地與濱水地帶既是鮮明界線，也是割裂來源。\u003c/p\u003e\u003cp class=\"field-question\"\u003e現地提問：這條界線是在阻隔城市，還是在把兩側縫合起來？\u003c/p\u003e",
+        "insight": "強邊界不一定帶來清楚意象；它也可能把城市切成彼此無關的片段。"
+      },
+      {
+        "detail": "\u003cp class=\"detail-label\"\u003e邊界判讀 \u003cspan\u003e中\u003c/span\u003e\u003c/p\u003e\u003cp class=\"city-reading\"\u003e高速公路、坡地與開放空間形成界線，但也常把不同片區切開。\u003c/p\u003e\u003cp class=\"field-question\"\u003e現地提問：這條界線是在阻隔城市，還是在把兩側縫合起來？\u003c/p\u003e",
+        "insight": "當城市尺度改變，意象不只來自步行街道，也來自速度、視野與移動序列。"
+      }
+    ]
+  },
+  {
+    "active": "區域",
+    "cards": [
+      {
+        "detail": "\u003cp class=\"detail-label\"\u003e區域判讀 \u003cspan\u003e很強\u003c/span\u003e\u003c/p\u003e\u003cp class=\"city-reading\"\u003e燈塔山、後灣、北端等區域在建築、地形與活動上各有鮮明性格。\u003c/p\u003e\u003cp class=\"field-question\"\u003e現地提問：進入與離開時，材質、活動或空間氣氛是否明顯改變？\u003c/p\u003e",
+        "insight": "強烈的局部個性，可以與不完全清楚的整體結構同時存在。"
+      },
+      {
+        "detail": "\u003cp class=\"detail-label\"\u003e區域判讀 \u003cspan\u003e局部清楚\u003c/span\u003e\u003c/p\u003e\u003cp class=\"city-reading\"\u003e族群與階層街坊各自可辨，但彼此之間缺少共享架構。\u003c/p\u003e\u003cp class=\"field-question\"\u003e現地提問：進入與離開時，材質、活動或空間氣氛是否明顯改變？\u003c/p\u003e",
+        "insight": "強邊界不一定帶來清楚意象；它也可能把城市切成彼此無關的片段。"
+      },
+      {
+        "detail": "\u003cp class=\"detail-label\"\u003e區域判讀 \u003cspan\u003e中\u003c/span\u003e\u003c/p\u003e\u003cp class=\"city-reading\"\u003e市中心可依街區與功能辨識；更大尺度則呈現分散、多核心。\u003c/p\u003e\u003cp class=\"field-question\"\u003e現地提問：進入與離開時，材質、活動或空間氣氛是否明顯改變？\u003c/p\u003e",
+        "insight": "當城市尺度改變，意象不只來自步行街道，也來自速度、視野與移動序列。"
+      }
+    ]
+  },
+  {
+    "active": "節點",
+    "cards": [
+      {
+        "detail": "\u003cp class=\"detail-label\"\u003e節點判讀 \u003cspan\u003e中高\u003c/span\u003e\u003c/p\u003e\u003cp class=\"city-reading\"\u003e公共廣場與主要交會處能集中活動，但部分連結與出口仍不夠清楚。\u003c/p\u003e\u003cp class=\"field-question\"\u003e現地提問：人會在此停留、轉向、會合，還是重新判斷下一段路？\u003c/p\u003e",
+        "insight": "強烈的局部個性，可以與不完全清楚的整體結構同時存在。"
+      },
+      {
+        "detail": "\u003cp class=\"detail-label\"\u003e節點判讀 \u003cspan\u003e局部\u003c/span\u003e\u003c/p\u003e\u003cp class=\"city-reading\"\u003eJournal Square 等中心能被辨識，但多個中心彼此鬆散。\u003c/p\u003e\u003cp class=\"field-question\"\u003e現地提問：人會在此停留、轉向、會合，還是重新判斷下一段路？\u003c/p\u003e",
+        "insight": "強邊界不一定帶來清楚意象；它也可能把城市切成彼此無關的片段。"
+      },
+      {
+        "detail": "\u003cp class=\"detail-label\"\u003e節點判讀 \u003cspan\u003e中\u003c/span\u003e\u003c/p\u003e\u003cp class=\"city-reading\"\u003ePershing Square、市政中心與主要路口是局部節點，串聯感仍有限。\u003c/p\u003e\u003cp class=\"field-question\"\u003e現地提問：人會在此停留、轉向、會合，還是重新判斷下一段路？\u003c/p\u003e",
+        "insight": "當城市尺度改變，意象不只來自步行街道，也來自速度、視野與移動序列。"
+      }
+    ]
+  },
+  {
+    "active": "地標",
+    "cards": [
+      {
+        "detail": "\u003cp class=\"detail-label\"\u003e地標判讀 \u003cspan\u003e強\u003c/span\u003e\u003c/p\u003e\u003cp class=\"city-reading\"\u003e州議會金頂、海關大樓等可遠距辨識，能協助城市定向。\u003c/p\u003e\u003cp class=\"field-question\"\u003e現地提問：它是否與背景形成差異，並能從多個位置被辨識？\u003c/p\u003e",
+        "insight": "強烈的局部個性，可以與不完全清楚的整體結構同時存在。"
+      },
+      {
+        "detail": "\u003cp class=\"detail-label\"\u003e地標判讀 \u003cspan\u003e弱\u003c/span\u003e\u003c/p\u003e\u003cp class=\"city-reading\"\u003e參照物多服務鄰里尺度，較難串成全市共同意象。\u003c/p\u003e\u003cp class=\"field-question\"\u003e現地提問：它是否與背景形成差異，並能從多個位置被辨識？\u003c/p\u003e",
+        "insight": "強邊界不一定帶來清楚意象；它也可能把城市切成彼此無關的片段。"
+      },
+      {
+        "detail": "\u003cp class=\"detail-label\"\u003e地標判讀 \u003cspan\u003e中高\u003c/span\u003e\u003c/p\u003e\u003cp class=\"city-reading\"\u003e高層建築、旅館與市政建築具辨識性，但分布較為零散。\u003c/p\u003e\u003cp class=\"field-question\"\u003e現地提問：它是否與背景形成差異，並能從多個位置被辨識？\u003c/p\u003e",
+        "insight": "當城市尺度改變，意象不只來自步行街道，也來自速度、視野與移動序列。"
+      }
+    ]
+  }
+]</script>
+<script type="application/json" id="element-data">[
+  {
+    "active": "01\n道路\nPATHS",
+    "diagramAria": "都市意象示意圖，目前顯示道路",
+    "diagramClass": "city-diagram active-paths",
+    "explainer": "\u003cp class=\"explainer-kicker\"\u003ePATHS\u003c!-- --\u003e / \u003c!-- --\u003e01\u003c/p\u003e\u003ch3\u003e道路\u003c/h3\u003e\u003cp class=\"explainer-short\"\u003e移動的骨架\u003c/p\u003e\u003cp\u003e人們日常、偶爾或可能沿著移動的線性通道，也是多數都市意象的主幹。\u003c/p\u003e\u003cdiv class=\"prompt-card\"\u003e\u003cspan\u003e現地觀察問題\u003c/span\u003e\u003cstrong\u003e路線是否連續？轉折與方向改變是否容易被察覺？\u003c/strong\u003e\u003c/div\u003e"
+  },
+  {
+    "active": "02\n邊界\nEDGES",
+    "diagramAria": "都市意象示意圖，目前顯示邊界",
+    "diagramClass": "city-diagram active-edges",
+    "explainer": "\u003cp class=\"explainer-kicker\"\u003eEDGES\u003c!-- --\u003e / \u003c!-- --\u003e02\u003c/p\u003e\u003ch3\u003e邊界\u003c/h3\u003e\u003cp class=\"explainer-short\"\u003e分隔與縫合\u003c/p\u003e\u003cp\u003e不是主要移動路徑的線性要素；它可能是岸線、鐵路、牆面，也可能是區域之間的接縫。\u003c/p\u003e\u003cdiv class=\"prompt-card\"\u003e\u003cspan\u003e現地觀察問題\u003c/span\u003e\u003cstrong\u003e這條界線是在阻隔城市，還是在把兩側縫合起來？\u003c/strong\u003e\u003c/div\u003e"
+  },
+  {
+    "active": "03\n區域\nDISTRICTS",
+    "diagramAria": "都市意象示意圖，目前顯示區域",
+    "diagramClass": "city-diagram active-districts",
+    "explainer": "\u003cp class=\"explainer-kicker\"\u003eDISTRICTS\u003c!-- --\u003e / \u003c!-- --\u003e03\u003c/p\u003e\u003ch3\u003e區域\u003c/h3\u003e\u003cp class=\"explainer-short\"\u003e可進入的範圍\u003c/p\u003e\u003cp\u003e具有共同性格、能讓人感到自己身處其中的中大型都市範圍。\u003c/p\u003e\u003cdiv class=\"prompt-card\"\u003e\u003cspan\u003e現地觀察問題\u003c/span\u003e\u003cstrong\u003e進入與離開時，材質、活動或空間氣氛是否明顯改變？\u003c/strong\u003e\u003c/div\u003e"
+  },
+  {
+    "active": "04\n節點\nNODES",
+    "diagramAria": "都市意象示意圖，目前顯示節點",
+    "diagramClass": "city-diagram active-nodes",
+    "explainer": "\u003cp class=\"explainer-kicker\"\u003eNODES\u003c!-- --\u003e / \u003c!-- --\u003e04\u003c/p\u003e\u003ch3\u003e節點\u003c/h3\u003e\u003cp class=\"explainer-short\"\u003e選擇與聚集\u003c/p\u003e\u003cp\u003e可進入的策略性位置，常出現在交通轉換、路徑交會或活動集中的地方。\u003c/p\u003e\u003cdiv class=\"prompt-card\"\u003e\u003cspan\u003e現地觀察問題\u003c/span\u003e\u003cstrong\u003e人會在此停留、轉向、會合，還是重新判斷下一段路？\u003c/strong\u003e\u003c/div\u003e"
+  },
+  {
+    "active": "05\n地標\nLANDMARKS",
+    "diagramAria": "都市意象示意圖，目前顯示地標",
+    "diagramClass": "city-diagram active-landmarks",
+    "explainer": "\u003cp class=\"explainer-kicker\"\u003eLANDMARKS\u003c!-- --\u003e / \u003c!-- --\u003e05\u003c/p\u003e\u003ch3\u003e地標\u003c/h3\u003e\u003cp class=\"explainer-short\"\u003e遠距參照點\u003c/p\u003e\u003cp\u003e通常從外部觀看、不必進入的點狀參照物，可用來確認位置與方向。\u003c/p\u003e\u003cdiv class=\"prompt-card\"\u003e\u003cspan\u003e現地觀察問題\u003c/span\u003e\u003cstrong\u003e它是否與背景形成差異，並能從多個位置被辨識？\u003c/strong\u003e\u003c/div\u003e"
+  }
+]</script>
+
+</body>
+</html>
